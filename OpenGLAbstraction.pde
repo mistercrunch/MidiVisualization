@@ -48,7 +48,7 @@ OpenGLAbstraction(){
   //Loading textures
   try {
     if(LINUX_MODE)
-      texBall = TextureIO.newTexture(new File(dataPath("/home/mistercrunch/Code/Processing/particle2.png")), true);  
+      texBall = TextureIO.newTexture(new File(dataPath("/home/mistercrunch/Code/Processing/MidiVisualization/data/particle2.png")), true);  
     else
       texBall = TextureIO.newTexture(new File(dataPath("c:\\particle.png")), true);  
   }
